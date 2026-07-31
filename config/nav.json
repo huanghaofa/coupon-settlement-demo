@@ -1,0 +1,14 @@
+{
+  "menu": [
+    {
+      "key": "report",
+      "label": "实际结算报表",
+      "icon": "▦"
+    },
+    {
+      "key": "rules",
+      "label": "卡券规则设置",
+      "icon": "⚙"
+    }
+  ]
+}

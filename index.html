@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="卡券实际结算报表与结算规则设置静态部署演示">
+  <title>卡券结算管理</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231769e0'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-size='34' fill='white'%3E券%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="annotations/annotation.css">
+</head>
+<body>
+  <div class="app-layout">
+    <nav id="main-nav" class="app-sidebar" aria-label="主导航"></nav>
+    <section class="app-shell">
+      <header class="topbar">
+        <button id="sidebar-toggle" class="icon-button mobile-only" aria-label="打开导航">☰</button>
+        <div>
+          <div class="system-name">卡券中心 · 结算管理</div>
+          <div class="environment-label">STATIC DEMO</div>
+        </div>
+        <div class="topbar-user">
+          <span class="avatar">管</span>
+          <span>结算管理员</span>
+        </div>
+      </header>
+      <main id="app" class="app-main" tabindex="-1"></main>
+    </section>
+  </div>
+  <div id="toast-root" aria-live="polite"></div>
+
+  <script src="mock/data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/pages/report.js"></script>
+  <script src="js/pages/rules.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/nav.js"></script>
+  <script>
+    window.AnnotationConfig = {
+      projectId: "prototype-491d624a",
+      dataVersion: "1",
+      page: "index"
+    };
+  </script>
+  <script src="annotations/annotations.js"></script>
+  <script src="annotations/annotation-runtime.js"></script>
+</body>
+</html>
